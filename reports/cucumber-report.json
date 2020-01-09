@@ -1,1 +1,237 @@
-[]
+[
+  {
+    "description": "  As a coffee machine owner \n  I want to be able that \n  I can controll that the machine has enough material \n  to let the users buy coffee.",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 1916601
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 582064
+            },
+            "line": 11,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2367669606
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature"
+  },
+  {
+    "description": "As a coffee buyer\nI want a coffee machine that\nI can put 15 kr coins in or pay 10 kr with bank card\nand get a cup of coffee back.",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 232517
+            },
+            "line": 9,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 216093
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 15 kr coins in the machine",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pay 15 kr with credit card",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select my drink",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Press start button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I will get a cup of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2158807868
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature"
+  }
+]

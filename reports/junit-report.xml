@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.001916601">
+        </testcase>
+        <testcase name="And the power light is on" classname=";" time="0.000582064">
+        </testcase>
+        <testcase name="And that the machine has enough water" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine has enough coffee" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine has enough milk" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="11" failures="0" skipped="9">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000232517">
+        </testcase>
+        <testcase name="And the power light is on" classname=";" time="0.000216093">
+        </testcase>
+        <testcase name="And that the machine has enough water" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine has enough coffee" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine has enough milk" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I insert 15 kr coins in the machine" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I pay 15 kr with credit card" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I select my drink" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And Press start button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I will get a cup of coffee" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
     </testsuite>
 </testsuites>
