@@ -10,10 +10,9 @@ class CoffeeMachine {
     this.coinPayedSinceLastCup = 0;
     this.cardPayedSinceLastCup = 0;
     this.pluggedIn = false;
-    this.waterInBucket = 0;
-    this.milkInBucket = 0;
-    this.coffeeInBucket = 0;
-
+    this.waterInBucket = false;
+    this.milkInBucket = false;
+    this.coffeeInBucket = false;
     this.waterTempreture = 10;
 
     this.coffeePerCup = 0;
@@ -25,7 +24,7 @@ class CoffeeMachine {
     this.coffeeDispenser = false;
     this.coffeeBlender = false;
 
-    this.selectedDrink = "";
+    this.selectedDrink = false;
 
     this.blackCoffeeButton = false;
     this.coffeWithMilkButton = false;
@@ -36,6 +35,8 @@ class CoffeeMachine {
 
     this.startLight = false;
     this.powerLight = false;
+    this.powerButton = false;
+    this.coffeeMachinReady = false;
   }
 
   // Metoder är saker man gör (verb)
@@ -44,29 +45,43 @@ class CoffeeMachine {
     this.pluggedIn = true;
     //this.shinePowerLight();
   }
+  plugOut() {
+    this.pluggedIn = false;
+    //this.shinePowerLight();
+  }
 
+  pressPowerButton() {
+    this.powerButton = true;
+  }
   lightPowerLight() {
     this.powerLight = true;
   }
-
-  fillWithCoffee(amount) {
+  checkIfMachineReady() {
+    this.coffeeMachinReady = true;
+  }
+  checkIfMachineNotReady() {
+    this.coffeeMachinReady = false;
+  }
+  /*fillWithCoffee(amount) {
     // add amount to total amount of 
     // ground coffee in the machine
     this.coffeeInBucket += amount;
+  }*/
+
+  fillWithWater() {
+    this.waterInBucket = true;
+  }
+  fillWithCoffee() {
+    this.coffeeInBucket = true;
   }
 
-  fillWithWater(amount) {
-    this.waterInBucket += amount;
+  fillWithMilk() {
+    this.milkInBucket = true;
   }
 
-  fillWithmilk(amount) {
-    this.milkInBucket += amount;
-  }
+  fillWithCups() {
 
-  fillWithCups(amount) {
-    // add amount of cups to the
-    // total number of cups in the machine
-    this.cupsInMachine += amount;
+    this.cupsInMachine = true;
   }
 
   insertMoney(amount) {
@@ -99,28 +114,11 @@ class CoffeeMachine {
 
   }
 
-  selectDrink(blackCoffee, coffeWithMilk, coppuccino) {
-    if (this.selectedDrink == blackCoffee) {
-      this.coffeePerCup = 13; // amount of coffee in gram
-      this.waterInCup = 2;   // amount of water in dl
-      return this.selectedDrink;
-
-    }
-    else if (this.selectedDrink == coffeWithMilk) {
-      this.coffeePerCup = 13; // amount of coffee in gram
-      this.milkInCup = 0.5;  // amount of milk in dl
-      this.waterInCup = 1.5; // amount of water in dl
-      return this.selectedDrink;
-
-    }
-    else (this.selectedDrink == coppuccino)
-    this.coffeePerCup = 10;
-    this.milkInCup = 1;
-    this.waterInCup = 1;
-    return this.selecedtDrink
+  selectDrink(drink) {
+    this.selectedDrink = drink;
+    console.log("I am the machine and I know that you selected", this.selectedDrink)
 
   }
-
   lightStartLight() {
     this.startLight = true;
   }
@@ -151,11 +149,28 @@ class CoffeeMachine {
     //return cancelDrink;
   }
 
-  brewCoffee() {
+  brewCoffee(drinkType) {
     this.coffeeBlender = true; // start mixig coffee materials
     this.waterTempreture = 80; // degrees in selecius
+    if (drinkType === 'black coffee') {
+      this.coffeePerCup = 13; // amount of coffee in gram
+      this.waterInCup = 2;   // amount of water in dl
+    }
+    else if (drinkType == 'coffeeWithMilk') {
+      this.coffeePerCup = 13; // amount of coffee in gram
+      this.milkInCup = 0.5;  // amount of milk in dl
+      this.waterInCup = 1.5; // amount of water in dl
+
+    }
+    else (drinkType == 'coppuccino')
+    this.coffeePerCup = 10;
+    this.milkInCup = 1;
+    this.waterInCup = 1;
 
   }
+
+
+
 
   dispenseCup() {
     if (this.cupsInMachine >= 1) {
