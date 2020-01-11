@@ -1,0 +1,127 @@
+Class: MyCoffeeMachine
+Properties
+
+coffeeInBucket 
+type: number (gram)
+initial value: 0
+The amount of coffee left in the bucket in liter
+
+chosenDrink
+type:string
+type of drink user has chosen
+
+waterInBucket 
+type: number (dl)
+initial value: 0
+The amount of water left in the bucket in liter
+
+milkInBucket 
+type: number (dl)
+initial value: 0
+The amount of milk left in the bucket in liter
+
+cupsInDispenser 
+type: number 
+initial value: 0
+The number of cups left in the cup despenser
+
+plugedIn 
+type: boolean
+initial value: false
+The machine has to plug into a power source
+
+powerOnButton 
+type: boolean
+initial value: false
+To be pressed to power on the coffee machine 
+
+pricePerCup
+type: number (SEK)
+initial value: 20
+The amount to be inserted to get a cup of coffee
+
+insertedMoneySinceLastCup
+type: number (SEK)
+initial value: 0
+Money inserted since the last cup was bought.
+Check when start is called to see if
+the customer payed enough.
+
+totalMoneyInMachine
+type: number (SEK)
+initial value: 0
+The total money from sales
+since the machine was last emptied.
+
+
+
+
+
+
+Methods
+
+fillCoffeeInBrucket()
+Let's the coffee machine get coffee in the coffee bucket.
+Let's activate the warning function if no enough coffee.
+Returns true if there is enough coffee in the bucket.
+Otherwise false, warning message in screen.
+
+fillWaterInBrucket(amount,warningLight)
+Let's the machine get water in the water bucket.
+Let's activate the warning function if no enough water.
+Returns true if there is enough water in the bucket.
+Otherwise false, warning message in screen.
+
+fillMilkInBrucket(amount, warningLight)
+Let's the machine get milk in the milk bucket.
+Let's activate the warning function if no enough milk.
+Returns true if there is enough milk in the bucket.
+Otherwise false, warning message in screen.
+
+putCupsInDespenser(number,warningLight)
+Let's the machine get paper cups in the despenser.
+Let's activate the warning function if no cups in the dispenser.
+Returns true if there is at least one cup .
+Otherwise false.
+
+pluggIntoPower(boolean)
+called when the power cable of coffee machine to be pluged into the power source.
+Return value: true, if the machine is powered on and the red light is on.
+
+pressPowerOn(boolean)
+called when the power on button is pressed 
+Return value: true, if the button is pressed .
+
+payForDrink(amount)
+called when customer pay number (sek) for drinks
+return value: nothing
+
+checkMoneyBucket(boolean)
+called to check money amount in the money bocket 
+Return value: string, money bucket is full
+
+refund()
+called when the cancel buttons is pressed
+return value: number, money inserted since last cup to the customer
+ 
+pressBlackCoffeeButton()
+called when black coffee button is pressed
+Return value:string, name of selected drink 
+
+pressCoffeeMilkButton()
+called when coffee with milk button is pressed
+Return value:string, name of selected drink 
+
+pressLatteButton()
+called when latte button pressed
+Return value:string, name of selected drink 
+
+workOnSelectedDrink(process1,process2)
+
+pressCanceltButton()
+called when the cancel button is pressed
+return value: number, return money back, reset type of drink till ""
+
+pressStartButton()
+called when the start button is pressed
+return value: string, type of coffee bought

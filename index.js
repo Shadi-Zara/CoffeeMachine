@@ -31,7 +31,7 @@ class CoffeeMachine {
     this.coppuccinoButton = false;
     this.startButton = false;
     this.cancelButton = false;
-    this.refundButton = false;
+    //this.refundButton = false;
 
     this.startLight = false;
     this.powerLight = false;
@@ -71,12 +71,21 @@ class CoffeeMachine {
   fillWithWater() {
     this.waterInBucket = true;
   }
+  checkIfNoWater() {
+    this.waterInBucket = false;
+  }
   fillWithCoffee() {
     this.coffeeInBucket = true;
+  }
+  checkIfNoCoffee() {
+    this.coffeeInBucket = false;
   }
 
   fillWithMilk() {
     this.milkInBucket = true;
+  }
+  checkIfNoMilk() {
+    this.milkInBucket = false;
   }
 
   fillWithCups() {
@@ -107,23 +116,21 @@ class CoffeeMachine {
 
   }
 
-  refundPayWithCard() {
-    let payedByCard = this.cardPayedSinceLastCup;
-    this.cardPayedSinceLastCup = 0;
-    return payedByCard;
+  refundPayWithCard(amount) {
+    this.cardPayedSinceLastCup -= amount;
+    return amount;
 
   }
 
   selectDrink(drink) {
     this.selectedDrink = drink;
-    console.log("I am the machine and I know that you selected", this.selectedDrink)
 
   }
   lightStartLight() {
     this.startLight = true;
   }
   start() {
-    this.shineStartLight();
+    //this.shineStartLight();
 
     if (this.coinPayedSinceLastCup >= this.pricePerCup) {
       this.totalMoney += this.coinPayedSinceLastCup;
@@ -132,13 +139,13 @@ class CoffeeMachine {
       return "Here is your coffee";
 
     }
-    else if (this.cardPayedSinceLastCup >= this.pricePerCup) {
+  
+ else if (this.cardPayedSinceLastCup >= this.pricePerCup) {
       this.totalMoney += this.cardPayedSinceLastCup;
       this.serveCoffee();
       return "Here is your coffee";
     }
 
-    return "Something worng with payment";
   }
 
   cancel() {
@@ -169,24 +176,12 @@ class CoffeeMachine {
 
   }
 
-
-
-
-  dispenseCup() {
-    if (this.cupsInMachine >= 1) {
-      this.cupDispenser = true;
-    }
-  }
-
-  dispenseCoffee() {
-    this.coffeeDispenser = true;
-
-  }
-
   serveCoffee() {
     // Heat water, blend coffee/ water etc.
-    this.brewCoffee();
     this.selectDrink();
+    this.checkIfEnoughCoffeeForACup();
+    this.checkIfAnyCupsLeft()
+    this.brewCoffee();
     this.dispenseCup();
     this.dispenseCoffee();
 
@@ -198,6 +193,16 @@ class CoffeeMachine {
 
   checkIfAnyCupsLeft() {
     return this.cupsInMachine >= 1;
+  }
+
+  dispenseCup() {
+    if (this.cupsInMachine >= 1) {
+      this.cupDispenser = true;
+    }
+  }
+  dispenseCoffee() {
+    this.coffeeDispenser = true;
+
   }
 
 }

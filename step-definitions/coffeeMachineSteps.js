@@ -6,6 +6,7 @@ let CoffeeMachine = require('../index.js');
 // Variables that we want to be able to share between different steps
 // Make a brand new coffee machine
 let myMachine = new CoffeeMachine();
+let startButtonResult;
 
 // Export the step-definitions (tests) so that Cucumber can read/use them
 module.exports = function () {
@@ -71,7 +72,7 @@ module.exports = function () {
     );
   });
 
-  this.When(/^I press power butoon$/, function () {
+  this.When(/^I press the power button$/, function () {
     myMachine.pressPowerButton();
     assert.strictEqual(myMachine.powerButton, true, "Expected the property power button to be true after calling pressPowerButton()");
   });
@@ -90,6 +91,25 @@ module.exports = function () {
     assert.strictEqual(myMachine.coffeeMachinReady, false, "Expected the property pluggedIn to be false ");
 
   });
+
+
+  this.Given(/^there are not enough water$/, function () {
+    myMachine.checkIfNoWater();
+    assert.strictEqual(myMachine.waterInBucket, false, "Expected the property waterInBucket to be false wen checkIfNoWater()is called");
+  });
+
+  this.Given(/^there are not enough coffee$/, function () {
+    myMachine.checkIfNoCoffee();
+    assert.strictEqual(myMachine.coffeeInBucket, false, "Expected the property coffeeInBucket to be false wen checkIfNoCoffee()is called");
+  });
+
+  this.Given(/^there are not enough milk$/, function () {
+    myMachine.checkIfNoMilk();
+    assert.strictEqual(myMachine.milkInBucket, false, "Expected the property milkInBucket to be false wen checkIfNoMilk()is called");
+  });
+
+
+
 
   this.When(/^I insert (\d+) kr coins in the machine$/, function (moneyAmount) {
 
@@ -125,6 +145,31 @@ module.exports = function () {
     assert.strictEqual(myMachine.selectedDrink, drink, "Expected the property selectedDrink to be true when selectDrink() is called");
 
   });
+  this.When(/^I presses the "([^"]*)" button$/, function (button) {
+    if (button === 'start') {
+      // we assume just everything is fine
+      startButtonResult = myMachine.start();
 
+      assert(true, "Expected the machine will start coffee making ")
+    }
+  });
 
+  this.Then(/^I will get a <cup> of coffee$/, function (cups) {
+    cups /= 1;
+
+    if (cups === 1) {
+      assert.deepEqual(
+        startButtonResult,
+        "here's your coffee",
+        "Didn't get any coffee? You should. We inserted enough."
+      );
+    }
+    else {
+      assert.notDeepEqual(
+        startButtonResult,
+        "Sorry",
+        "We didn't insert more cups!"
+      );
+    }
+  });
 }
