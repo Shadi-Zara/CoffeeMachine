@@ -28,17 +28,7 @@ module.exports = function () {
       'Expected the property powerLight to be true after calling the lightPowerLight() method.'
     );
   });
-  /*
-    this.Given(/^that the machine has enough water$/, function (amount) {
-      amount /= 1;
-      let waterBefore = this.waterInBucket;
   
-      // check if there is enough water in the water bucket
-      myMachine.fillWithWater(amount);
-      assert.equal(myMachine.waterInBucket, waterBefore + amount,
-        'Expected the property waterInBucket to fill amount of water in bucket after calling the fillWithWater() method.'
-      );
-    });*/
   this.Given(/^that the machine has enough water$/, function () {
 
     // check if there is enough water in the water bucket
@@ -111,7 +101,7 @@ module.exports = function () {
 
 
 
-  this.When(/^I insert (\d+) kr coins in the machine$/, function (moneyAmount) {
+  this.When(/^I insert (\d+) kr in the machine$/, function (moneyAmount) {
 
 
     moneyAmount /= 1;
@@ -124,6 +114,31 @@ module.exports = function () {
       "Expected the amount of money inserted to increase with the amount inserted"
     )
   });
+
+  
+  this.When(/^I insert "([^"]*)" in the machine$/, function (nonMoney) {
+
+    // Stupid Cucumber/assert library
+    // the function used with assert.throws
+    // can not use local variables...
+    // So we have to make nonMoney an global
+    global.nonMoney = nonMoney;
+
+    assert.throws(
+      // A function to run in which we expect
+      // the program to throw a certain error
+      function () {
+        myMachine.insertMoney(global.nonMoney);
+      },
+      // The error type we expect
+      Error,
+      // The error we expect the program to throw
+      'You must insert money not ' + nonMoney,
+      // Message in test report
+      'Expected the runtime error "You must insert money not ' + nonMoney + '"'
+    );
+  });
+
 
 
   this.When(/^I pay (\d+) kr with credit card$/, function (moneyAmount) {
@@ -154,22 +169,40 @@ module.exports = function () {
     }
   });
 
-  this.Then(/^I will get a <cup> of coffee$/, function (cups) {
+  this.Then(/^I will get a (\d+) cup of coffee$/, function (cups) {
     cups /= 1;
 
     if (cups === 1) {
-      assert.deepEqual(
-        startButtonResult,
-        "here's your coffee",
-        "Didn't get any coffee? You should. We inserted enough."
-      );
+      myMachine.serveCoffee();
+      assert(true,"Here's your coffee, Expected to serve coffee" );
     }
     else {
-      assert.notDeepEqual(
-        startButtonResult,
-        "Sorry",
-        "We didn't insert more cups!"
-      );
+      assert(
+        false, "Sorry We didn't insert more cups! Expected to not serve coffee");
     }
   });
+
+
+  
+
 }
+
+
+
+
+
+
+
+
+
+
+
+    //this.Given(/^that the machine has enough water$/, function (amount) {
+      //amount /= 1;
+      //let waterBefore = this.waterInBucket;
+
+      //myMachine.fillWithWater(amount);
+      //assert.equal(myMachine.waterInBucket, waterBefore + amount,
+        //'Expected the property waterInBucket to fill amount of water in bucket after calling the fillWithWater() method.'
+     // );
+    //});

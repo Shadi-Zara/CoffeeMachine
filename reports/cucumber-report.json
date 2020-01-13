@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 1815997
+              "duration": 2061345
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 441937
+              "duration": 437831
             },
             "line": 9,
             "match": {
@@ -40,11 +40,11 @@
             "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 466575
+              "duration": 439370
             },
             "line": 10,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:42"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 494292
+              "duration": 476327
             },
             "line": 11,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "I press the power button",
             "result": {
               "status": "passed",
-              "duration": 1530098
+              "duration": 496858
             },
             "line": 12,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:75"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:65"
             }
           },
           {
@@ -79,11 +79,11 @@
             "name": "the machine will be ready to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 1144109
+              "duration": 399848
             },
             "line": 13,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:80"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:70"
             }
           },
           {
@@ -91,11 +91,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3637397530
+              "duration": 2375373093
             },
             "hidden": true,
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -114,7 +114,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 203261
+              "duration": 276660
             },
             "line": 8,
             "match": {
@@ -127,7 +127,7 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 355705
+              "duration": 162198
             },
             "line": 9,
             "match": {
@@ -140,11 +140,11 @@
             "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 739641
+              "duration": 353139
             },
             "line": 10,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:51"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
           },
           {
@@ -153,11 +153,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 299245
+              "duration": 149878
             },
             "line": 11,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
@@ -166,11 +166,11 @@
             "name": "I press the power button",
             "result": {
               "status": "passed",
-              "duration": 195561
+              "duration": 111896
             },
             "line": 12,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:75"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:65"
             }
           },
           {
@@ -179,11 +179,11 @@
             "name": "the machine will be ready to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 144232
+              "duration": 149366
             },
             "line": 13,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:80"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:70"
             }
           },
           {
@@ -191,11 +191,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3263301614
+              "duration": 2168521586
             },
             "hidden": true,
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -214,7 +214,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 507123
+              "duration": 183242
             },
             "line": 8,
             "match": {
@@ -227,7 +227,7 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 159631
+              "duration": 153472
             },
             "line": 9,
             "match": {
@@ -240,11 +240,11 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 557939
+              "duration": 442450
             },
             "line": 10,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:59"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
           },
           {
@@ -253,11 +253,11 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 8716068
+              "duration": 136533
             },
             "line": 11,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
@@ -266,11 +266,11 @@
             "name": "I press the power button",
             "result": {
               "status": "passed",
-              "duration": 731429
+              "duration": 150392
             },
             "line": 12,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:75"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:65"
             }
           },
           {
@@ -279,11 +279,11 @@
             "name": "the machine will be ready to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 230978
+              "duration": 97524
             },
             "line": 13,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:80"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:70"
             }
           },
           {
@@ -291,11 +291,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3231756749
+              "duration": 2139803403
             },
             "hidden": true,
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -314,11 +314,11 @@
             "name": "that the machine is not plugged in",
             "result": {
               "status": "passed",
-              "duration": 1344290
+              "duration": 334661
             },
             "line": 23,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:85"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:75"
             }
           },
           {
@@ -327,11 +327,11 @@
             "name": "I press the power button",
             "result": {
               "status": "passed",
-              "duration": 255102
+              "duration": 95984
             },
             "line": 24,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:75"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:65"
             }
           },
           {
@@ -340,11 +340,11 @@
             "name": "the machine will not be alble to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 1608118
+              "duration": 206339
             },
             "line": 25,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:89"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
             }
           },
           {
@@ -352,11 +352,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3262256570
+              "duration": 2128915130
             },
             "hidden": true,
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -375,7 +375,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 567178
+              "duration": 141666
             },
             "line": 28,
             "match": {
@@ -388,11 +388,11 @@
             "name": "there are not enough water",
             "result": {
               "status": "passed",
-              "duration": 416786
+              "duration": 270500
             },
             "line": 29,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:96"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:86"
             }
           },
           {
@@ -401,11 +401,11 @@
             "name": "I press the power button",
             "result": {
               "status": "passed",
-              "duration": 138586
+              "duration": 90338
             },
             "line": 30,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:75"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:65"
             }
           },
           {
@@ -414,11 +414,11 @@
             "name": "the machine will not be alble to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 257155
+              "duration": 99577
             },
             "line": 31,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:89"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
             }
           },
           {
@@ -426,11 +426,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3297677238
+              "duration": 2147737731
             },
             "hidden": true,
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -449,7 +449,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 227897
+              "duration": 156552
             },
             "line": 28,
             "match": {
@@ -462,11 +462,11 @@
             "name": "there are not enough coffee",
             "result": {
               "status": "passed",
-              "duration": 550754
+              "duration": 349033
             },
             "line": 29,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:101"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:91"
             }
           },
           {
@@ -475,11 +475,11 @@
             "name": "I press the power button",
             "result": {
               "status": "passed",
-              "duration": 165790
+              "duration": 152445
             },
             "line": 30,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:75"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:65"
             }
           },
           {
@@ -488,11 +488,11 @@
             "name": "the machine will not be alble to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 123188
+              "duration": 206340
             },
             "line": 31,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:89"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
             }
           },
           {
@@ -500,11 +500,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3268300996
+              "duration": 2185772001
             },
             "hidden": true,
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -523,7 +523,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 1031186
+              "duration": 185808
             },
             "line": 28,
             "match": {
@@ -536,11 +536,11 @@
             "name": "there are not enough milk",
             "result": {
               "status": "passed",
-              "duration": 1899149
+              "duration": 342873
             },
             "line": 29,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:106"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:96"
             }
           },
           {
@@ -549,11 +549,11 @@
             "name": "I press the power button",
             "result": {
               "status": "passed",
-              "duration": 197101
+              "duration": 150905
             },
             "line": 30,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:75"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:65"
             }
           },
           {
@@ -562,11 +562,11 @@
             "name": "the machine will not be alble to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 203261
+              "duration": 115489
             },
             "line": 31,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:89"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
             }
           },
           {
@@ -574,11 +574,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3288698369
+              "duration": 2134113660
             },
             "hidden": true,
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -599,324 +599,6 @@
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 21,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 475814
-            },
-            "line": 8,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 333121
-            },
-            "line": 9,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 315156
-            },
-            "line": 10,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:42"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 376750
-            },
-            "line": 11,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:51"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough milk",
-            "result": {
-              "status": "passed",
-              "duration": 149878
-            },
-            "line": 12,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:59"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 1251898
-            },
-            "line": 13,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 15 kr coins in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 5649712
-            },
-            "line": 14,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:114"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select the drink \"black coffee\"",
-            "result": {
-              "status": "passed",
-              "duration": 810475
-            },
-            "line": 15,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:143"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 1036319
-            },
-            "line": 16,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:148"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I will get a cup of coffee",
-            "result": {
-              "status": "failed",
-              "duration": 15002189667,
-              "error_message": "function timed out after 15000 milliseconds"
-            },
-            "line": 17,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:157"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 394072396
-            },
-            "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
-            "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 22,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 150905
-            },
-            "line": 8,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 134994
-            },
-            "line": 9,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 136020
-            },
-            "line": 10,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:42"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 132427
-            },
-            "line": 11,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:51"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough milk",
-            "result": {
-              "status": "passed",
-              "duration": 111896
-            },
-            "line": 12,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:59"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 140126
-            },
-            "line": 13,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 15 kr coins in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 131401
-            },
-            "line": 14,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:114"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select the drink \"coffee with milk\"",
-            "result": {
-              "status": "passed",
-              "duration": 120108
-            },
-            "line": 15,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:143"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 117029
-            },
-            "line": 16,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:148"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I will get a cup of coffee",
-            "result": {
-              "status": "failed",
-              "duration": 15000460415,
-              "error_message": "function timed out after 15000 milliseconds"
-            },
-            "line": 17,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:157"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 355048477
-            },
-            "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
-            "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
         "line": 23,
         "name": "",
         "steps": [
@@ -926,7 +608,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 209933
+              "duration": 100090
             },
             "line": 8,
             "match": {
@@ -939,7 +621,7 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 138073
+              "duration": 89825
             },
             "line": 9,
             "match": {
@@ -952,11 +634,11 @@
             "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 133454
+              "duration": 91878
             },
             "line": 10,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:42"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
             }
           },
           {
@@ -965,11 +647,11 @@
             "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 126268
+              "duration": 78019
             },
             "line": 11,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:51"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
           },
           {
@@ -978,11 +660,11 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 101117
+              "duration": 85205
             },
             "line": 12,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:59"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
           },
           {
@@ -991,37 +673,63 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 139613
+              "duration": 87258
             },
             "line": 13,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I insert 15 kr coins in the machine",
+            "name": "I insert 10 kr in the machine",
             "result": {
               "status": "passed",
-              "duration": 143719
+              "duration": 718596
             },
             "line": 14,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:114"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 5 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 207879
+            },
+            "line": 15,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 0 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 105223
+            },
+            "line": 16,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I select the drink \"coppuccino\"",
+            "name": "I select the drink \"black coffee\"",
             "result": {
               "status": "passed",
-              "duration": 125755
+              "duration": 357758
             },
-            "line": 15,
+            "line": 17,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:143"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:158"
             }
           },
           {
@@ -1030,25 +738,24 @@
             "name": "I presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 148852
+              "duration": 530221
             },
-            "line": 16,
+            "line": 18,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:148"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:163"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I will get a cup of coffee",
+            "name": "I will get a 1 cup of coffee",
             "result": {
-              "status": "failed",
-              "duration": 15000666755,
-              "error_message": "function timed out after 15000 milliseconds"
+              "status": "passed",
+              "duration": 214553
             },
-            "line": 17,
+            "line": 19,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:157"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:172"
             }
           },
           {
@@ -1056,17 +763,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 478050201
+              "duration": 2134163962
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1085,7 +786,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 692420
+              "duration": 95470
             },
             "line": 8,
             "match": {
@@ -1098,7 +799,7 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 504558
+              "duration": 85718
             },
             "line": 9,
             "match": {
@@ -1111,11 +812,11 @@
             "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 4220217
+              "duration": 91878
             },
             "line": 10,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:42"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
             }
           },
           {
@@ -1124,11 +825,11 @@
             "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 369051
+              "duration": 105736
             },
             "line": 11,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:51"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
           },
           {
@@ -1137,11 +838,11 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 649304
+              "duration": 68267
             },
             "line": 12,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:59"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
           },
           {
@@ -1150,342 +851,50 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 1211349
+              "duration": 82639
             },
             "line": 13,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I insert 15 kr coins in the machine",
+            "name": "I insert 5 kr in the machine",
             "result": {
               "status": "passed",
-              "duration": 1682030
+              "duration": 74426
             },
             "line": 14,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:114"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "name": "I select the drink \"byxknapp\"",
+            "keyword": "When ",
+            "name": "I insert 5 kr in the machine",
             "result": {
               "status": "passed",
-              "duration": 746828
+              "duration": 99576
             },
             "line": 15,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:143"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "name": "I presses the \"start\" button",
+            "keyword": "When ",
+            "name": "I insert 5 kr in the machine",
             "result": {
               "status": "passed",
-              "duration": 949574
+              "duration": 79045
             },
             "line": 16,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:148"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I will get a cup of coffee",
-            "result": {
-              "status": "failed",
-              "duration": 15000342360,
-              "error_message": "function timed out after 15000 milliseconds"
-            },
-            "line": 17,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:157"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 384209654
-            },
-            "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
-            "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 43,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 167844
-            },
-            "line": 30,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 160145
-            },
-            "line": 31,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 120108
-            },
-            "line": 32,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:42"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 101630
-            },
-            "line": 33,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:51"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough milk",
-            "result": {
-              "status": "passed",
-              "duration": 210959
-            },
-            "line": 34,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:59"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 131913
-            },
-            "line": 35,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I pay 15 kr with credit card",
-            "result": {
-              "status": "passed",
-              "duration": 485053
-            },
-            "line": 36,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:129"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select the drink \"black coffee\"",
-            "result": {
-              "status": "passed",
-              "duration": 166817
-            },
-            "line": 37,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:143"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 184783
-            },
-            "line": 38,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:148"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I will get a cup of coffee",
-            "result": {
-              "status": "failed",
-              "duration": 15000502504,
-              "error_message": "function timed out after 15000 milliseconds"
-            },
-            "line": 39,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:157"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 378491162
-            },
-            "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
-            "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 44,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 131914
-            },
-            "line": 30,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 125241
-            },
-            "line": 31,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 198640
-            },
-            "line": 32,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:42"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 102656
-            },
-            "line": 33,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:51"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough milk",
-            "result": {
-              "status": "passed",
-              "duration": 158605
-            },
-            "line": 34,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:59"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 437831
-            },
-            "line": 35,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I pay 15 kr with credit card",
-            "result": {
-              "status": "passed",
-              "duration": 1475177
-            },
-            "line": 36,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:129"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
             }
           },
           {
@@ -1494,11 +903,11 @@
             "name": "I select the drink \"coffee with milk\"",
             "result": {
               "status": "passed",
-              "duration": 249969
+              "duration": 118569
             },
-            "line": 37,
+            "line": 17,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:143"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:158"
             }
           },
           {
@@ -1507,25 +916,24 @@
             "name": "I presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 1032214
+              "duration": 105736
             },
-            "line": 38,
+            "line": 18,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:148"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:163"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I will get a cup of coffee",
+            "name": "I will get a 1 cup of coffee",
             "result": {
-              "status": "failed",
-              "duration": 15000726296,
-              "error_message": "function timed out after 15000 milliseconds"
+              "status": "passed",
+              "duration": 72373
             },
-            "line": 39,
+            "line": 19,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:157"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:172"
             }
           },
           {
@@ -1533,17 +941,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 363077771
+              "duration": 2127175614
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -1553,7 +955,7 @@
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 45,
+        "line": 25,
         "name": "",
         "steps": [
           {
@@ -1562,9 +964,9 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 852564
+              "duration": 92391
             },
-            "line": 30,
+            "line": 8,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
             }
@@ -1575,9 +977,9 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 325422
+              "duration": 85205
             },
-            "line": 31,
+            "line": 9,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
             }
@@ -1588,11 +990,11 @@
             "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 698065
+              "duration": 73912
             },
-            "line": 32,
+            "line": 10,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:42"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
             }
           },
           {
@@ -1601,11 +1003,11 @@
             "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 223278
+              "duration": 89824
             },
-            "line": 33,
+            "line": 11,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:51"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
           },
           {
@@ -1614,11 +1016,11 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 1347369
+              "duration": 70833
             },
-            "line": 34,
+            "line": 12,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:59"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
           },
           {
@@ -1627,24 +1029,50 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 339280
+              "duration": 89311
             },
-            "line": 35,
+            "line": 13,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:67"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "name": "I pay 15 kr with credit card",
+            "keyword": "When ",
+            "name": "I insert 0 kr in the machine",
             "result": {
               "status": "passed",
-              "duration": 385989
+              "duration": 81099
             },
-            "line": 36,
+            "line": 14,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:129"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 10 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 92390
+            },
+            "line": 15,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 5 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 83152
+            },
+            "line": 16,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:104"
             }
           },
           {
@@ -1653,11 +1081,11 @@
             "name": "I select the drink \"coppuccino\"",
             "result": {
               "status": "passed",
-              "duration": 559479
+              "duration": 98551
             },
-            "line": 37,
+            "line": 17,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:143"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:158"
             }
           },
           {
@@ -1666,25 +1094,24 @@
             "name": "I presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 592330
+              "duration": 79559
             },
-            "line": 38,
+            "line": 18,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:148"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:163"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I will get a cup of coffee",
+            "name": "I will get a 1 cup of coffee",
             "result": {
-              "status": "failed",
-              "duration": 15000664189,
-              "error_message": "function timed out after 15000 milliseconds"
+              "status": "passed",
+              "duration": 83665
             },
-            "line": 39,
+            "line": 19,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:157"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:172"
             }
           },
           {
@@ -1692,17 +1119,707 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 384729610
+              "duration": 2134545331
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "projects\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 100090
+            },
+            "line": 28,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 88798
+            },
+            "line": 29,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 79046
+            },
+            "line": 30,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 87258
+            },
+            "line": 31,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 70833
+            },
+            "line": 32,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 87772
+            },
+            "line": 33,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert \"byxknapp\" in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 1477229
+            },
+            "line": 34,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:119"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine will not be alble to serve drinks",
+            "result": {
+              "status": "passed",
+              "duration": 120621
+            },
+            "line": 35,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2140308473
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 92904
+            },
+            "line": 28,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 90851
+            },
+            "line": 29,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 140126
+            },
+            "line": 30,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 123188
+            },
+            "line": 31,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 503530
+            },
+            "line": 32,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 116002
+            },
+            "line": 33,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert \"false coin\" in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 291544
+            },
+            "line": 34,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:119"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine will not be alble to serve drinks",
+            "result": {
+              "status": "passed",
+              "duration": 74426
+            },
+            "line": 35,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2135524675
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 105736
+            },
+            "line": 44,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 80585
+            },
+            "line": 45,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 76992
+            },
+            "line": 46,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 113435
+            },
+            "line": 47,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 106763
+            },
+            "line": 48,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 160657
+            },
+            "line": 49,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pay 15 kr with credit card",
+            "result": {
+              "status": "passed",
+              "duration": 384962
+            },
+            "line": 50,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:144"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select the drink \"black coffee\"",
+            "result": {
+              "status": "passed",
+              "duration": 124728
+            },
+            "line": 51,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:158"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 112922
+            },
+            "line": 52,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:163"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I will get a cup of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2158543365
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 97524
+            },
+            "line": 44,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 107790
+            },
+            "line": 45,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 119082
+            },
+            "line": 46,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 87771
+            },
+            "line": 47,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 85718
+            },
+            "line": 48,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 113436
+            },
+            "line": 49,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pay 15 kr with credit card",
+            "result": {
+              "status": "passed",
+              "duration": 119082
+            },
+            "line": 50,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:144"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select the drink \"coffee with milk\"",
+            "result": {
+              "status": "passed",
+              "duration": 111382
+            },
+            "line": 51,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:158"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 117029
+            },
+            "line": 52,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:163"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I will get a cup of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2143700760
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 92391
+            },
+            "line": 44,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 88284
+            },
+            "line": 45,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 73912
+            },
+            "line": 46,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 87258
+            },
+            "line": 47,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 104710
+            },
+            "line": 48,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 86231
+            },
+            "line": 49,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pay 15 kr with credit card",
+            "result": {
+              "status": "passed",
+              "duration": 118055
+            },
+            "line": 50,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:144"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select the drink \"coppuccino\"",
+            "result": {
+              "status": "passed",
+              "duration": 77506
+            },
+            "line": 51,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:158"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 94445
+            },
+            "line": 52,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:163"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I will get a cup of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2149386909
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],

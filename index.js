@@ -37,6 +37,8 @@ class CoffeeMachine {
     this.powerLight = false;
     this.powerButton = false;
     this.coffeeMachinReady = false;
+
+    this.coffeeServed = false;
   }
 
   // Metoder är saker man gör (verb)
@@ -97,7 +99,7 @@ class CoffeeMachine {
     // add inserted money to total
     // money inserted so far
     if (typeof amount !== 'number') {
-      throw (new Error('You must insert money only!'));
+      throw (new Error('You must insert money not ' + nonMoney));
     }
     this.coinPayedSinceLastCup += amount;
   }
@@ -177,13 +179,16 @@ class CoffeeMachine {
   }
 
   serveCoffee() {
-    // Heat water, blend coffee/ water etc.
     this.selectDrink();
     this.checkIfEnoughCoffeeForACup();
     this.checkIfAnyCupsLeft()
     this.brewCoffee();
     this.dispenseCup();
     this.dispenseCoffee();
+    
+    this.coffeeServed = true;
+    // Heat water, blend coffee/ water etc.
+    
 
   }
 
