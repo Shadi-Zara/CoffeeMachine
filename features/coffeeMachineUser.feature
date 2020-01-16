@@ -23,6 +23,8 @@ Feature:
       | black coffee     | 10      | 5       | 0         | 1    |
       | coffee with milk | 5       | 5       | 5         | 1    |
       | coppuccino       | 0       | 10      | 5         | 1    |
+
+
       
   Scenario Outline:
     Given that the machine is plugged in
@@ -49,11 +51,36 @@ Feature:
     And the machine has plastic cups
     And I pay 15 kr with credit card
     And I select the drink "<drink>"
-    And I presses the "start" button
+    When I presses the "start" button
     Then I will get a cup of coffee
 
     Examples:
       | drink    |        
       | black coffee |    
       | coffee with milk |
-      | coppuccino |      
+      | coppuccino |    
+
+
+  Scenario:
+    Given I pay 15 kr with credit card  
+    When I press cancel
+    Then I will get my money back
+    And the machine will not be alble to serve drinks
+
+  Scenario Outline: 
+    Given I do not pay enough <money 1> kr
+    Given I do not pay enough <money 2> kr
+    Given I do not pay enough <money 3> kr
+    Then the machine will not be alble to serve drinks
+
+    Examples:
+    | money 1 | money 2 | money 3 |
+    |  1      |  2      |  5      |
+    |  10     |  1      |  2      |
+
+  Scenario:
+    Given I pay 15 kr with credit card
+    When I do not select a drink
+    And I presses the "start" button
+    And the machine will not be alble to serve drinks
+

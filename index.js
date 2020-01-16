@@ -31,7 +31,7 @@ class CoffeeMachine {
     this.coppuccinoButton = false;
     this.startButton = false;
     this.cancelButton = false;
-    //this.refundButton = false;
+    this.moneyRefund = false;
 
     this.startLight = false;
     this.powerLight = false;
@@ -54,6 +54,9 @@ class CoffeeMachine {
 
   pressPowerButton() {
     this.powerButton = true;
+  }
+  checkPowerOnButton() {
+    this.powerButton = false;
   }
   lightPowerLight() {
     this.powerLight = true;
@@ -94,6 +97,13 @@ class CoffeeMachine {
 
     this.cupsInMachine = true;
   }
+  checkIfNoCups() {
+    this.cupsInMachine = false;
+  }
+
+  checkIfDrinkSelected() {
+    this.selectedDrink = false;
+  }
 
   insertMoney(amount) {
     // add inserted money to total
@@ -117,13 +127,24 @@ class CoffeeMachine {
     this.cardPayedSinceLastCup += amount;
 
   }
-
-  refundPayWithCard(amount) {
-    this.cardPayedSinceLastCup -= amount;
-    return amount;
+  payForDrink() {
+    this.insertMoney();
+    this.payedByCard();
+}
+  refundPayWithCard() {
+    let payedByCard = this.cardPayedSinceLastCup;
+    this.cardPayedSinceLastCup = 0;
+    return payedByCard;
 
   }
+  refundMoney(moneyBack) {
+    this.moneyRefund = true;
 
+    this.refundCoins();
+    this.refundPayWithCard();
+    this.totalMoney -= moneyBack;
+
+  }
   selectDrink(drink) {
     this.selectedDrink = drink;
 
@@ -141,8 +162,8 @@ class CoffeeMachine {
       return "Here is your coffee";
 
     }
-  
- else if (this.cardPayedSinceLastCup >= this.pricePerCup) {
+
+    else if (this.cardPayedSinceLastCup >= this.pricePerCup) {
       this.totalMoney += this.cardPayedSinceLastCup;
       this.serveCoffee();
       return "Here is your coffee";
@@ -150,12 +171,19 @@ class CoffeeMachine {
 
   }
 
-  cancel() {
-    this.refundCoins();
+  cancel(amount) {
+    this.cancelButton = true;
+
+    if (amount === this.coinPayedSinceLastCup) {
+      this.refundCoins();
+    }
+    else (amount === this.payedByCard)
     this.refundPayWithCard();
-    //let cancelDrink = this.SelectedDrink;
-    this.selectedDrink = "";
-    //return cancelDrink;
+
+    this.totalMoney -= amount; //reduce the payed amount from totalMoney
+
+    this.selectedDrink = "";     //return selectedDrink 
+
   }
 
   brewCoffee(drinkType) {
@@ -185,10 +213,10 @@ class CoffeeMachine {
     this.brewCoffee();
     this.dispenseCup();
     this.dispenseCoffee();
-    
+
     this.coffeeServed = true;
     // Heat water, blend coffee/ water etc.
-    
+
 
   }
 

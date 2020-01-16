@@ -5,35 +5,17 @@
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.002061345">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.001109718">
         </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000437831">
+        <testcase name="And the power light is on" classname=";" time="0.0002782">
         </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.00043937">
+        <testcase name="And that the machine has enough water" classname=";" time="0.000244836">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000476327">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000194534">
         </testcase>
-        <testcase name="When I press the power button" classname=";" time="0.000496858">
+        <testcase name="When I press the power button" classname=";" time="0.000191455">
         </testcase>
-        <testcase name="Then the machine will be ready to serve drinks" classname=";" time="0.000399848">
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="6" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.00027666">
-        </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000162198">
-        </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000353139">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000149878">
-        </testcase>
-        <testcase name="When I press the power button" classname=";" time="0.000111896">
-        </testcase>
-        <testcase name="Then the machine will be ready to serve drinks" classname=";" time="0.000149366">
+        <testcase name="Then the machine will be ready to serve drinks" classname=";" time="0.00016579">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="6" failures="0" skipped="0">
@@ -41,17 +23,35 @@
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000183242">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000225844">
         </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000153472">
+        <testcase name="And the power light is on" classname=";" time="0.00014218">
         </testcase>
-        <testcase name="And that the machine has enough milk" classname=";" time="0.00044245">
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000361865">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000136533">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000134993">
         </testcase>
-        <testcase name="When I press the power button" classname=";" time="0.000150392">
+        <testcase name="When I press the power button" classname=";" time="0.00010625">
         </testcase>
-        <testcase name="Then the machine will be ready to serve drinks" classname=";" time="0.000097524">
+        <testcase name="Then the machine will be ready to serve drinks" classname=";" time="0.000100603">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000121648">
+        </testcase>
+        <testcase name="And the power light is on" classname=";" time="0.000093418">
+        </testcase>
+        <testcase name="And that the machine has enough milk" classname=";" time="0.00034236">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000076479">
+        </testcase>
+        <testcase name="When I press the power button" classname=";" time="0.000098551">
+        </testcase>
+        <testcase name="Then the machine will be ready to serve drinks" classname=";" time="0.000082638">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="3" failures="0" skipped="0">
@@ -59,53 +59,79 @@
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is not plugged in" classname=";" time="0.000334661">
+        <testcase name="Given that the machine is not plugged in" classname=";" time="0.000310536">
         </testcase>
-        <testcase name="When I press the power button" classname=";" time="0.000095984">
+        <testcase name="When I press the power button" classname=";" time="0.000093931">
         </testcase>
-        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000206339">
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000361865">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.00013448">
+        </testcase>
+        <testcase name="And there are not enough water" classname=";" time="0.0002705">
+        </testcase>
+        <testcase name="When I press the power button" classname=";" time="0.000081612">
+        </testcase>
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000074426">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000110869">
+        </testcase>
+        <testcase name="And there are not enough coffee" classname=";" time="0.000263828">
+        </testcase>
+        <testcase name="When I press the power button" classname=";" time="0.000090338">
+        </testcase>
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000089312">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000106249">
+        </testcase>
+        <testcase name="And there are not enough milk" classname=";" time="0.000235083">
+        </testcase>
+        <testcase name="When I press the power button" classname=";" time="0.000072373">
+        </testcase>
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000085205">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000102657">
+        </testcase>
+        <testcase name="And the machine has no plastic cups" classname=";" time="0.000262801">
+        </testcase>
+        <testcase name="When I press the power button" classname=";" time="0.000076993">
+        </testcase>
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000076479">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="3" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
             </property>
         </properties>
         <testcase name="Given that the machine is plugged in" classname=";" time="0.000141666">
         </testcase>
-        <testcase name="And there are not enough water" classname=";" time="0.0002705">
+        <testcase name="When I forget to press the power button" classname=";" time="0.000234571">
         </testcase>
-        <testcase name="When I press the power button" classname=";" time="0.000090338">
-        </testcase>
-        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000099577">
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="4" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000156552">
-        </testcase>
-        <testcase name="And there are not enough coffee" classname=";" time="0.000349033">
-        </testcase>
-        <testcase name="When I press the power button" classname=";" time="0.000152445">
-        </testcase>
-        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.00020634">
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="4" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000185808">
-        </testcase>
-        <testcase name="And there are not enough milk" classname=";" time="0.000342873">
-        </testcase>
-        <testcase name="When I press the power button" classname=";" time="0.000150905">
-        </testcase>
-        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000115489">
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000111382">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="12" failures="0" skipped="0">
@@ -113,89 +139,89 @@
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.00010009">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000097011">
         </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000089825">
+        <testcase name="And the power light is on" classname=";" time="0.000072886">
         </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.000091878">
+        <testcase name="And that the machine has enough water" classname=";" time="0.000087258">
         </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000078019">
-        </testcase>
-        <testcase name="And that the machine has enough milk" classname=";" time="0.000085205">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000087258">
-        </testcase>
-        <testcase name="When I insert 10 kr in the machine" classname=";" time="0.000718596">
-        </testcase>
-        <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000207879">
-        </testcase>
-        <testcase name="When I insert 0 kr in the machine" classname=";" time="0.000105223">
-        </testcase>
-        <testcase name="And I select the drink &quot;black coffee&quot;" classname=";" time="0.000357758">
-        </testcase>
-        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000530221">
-        </testcase>
-        <testcase name="Then I will get a 1 cup of coffee" classname=";" time="0.000214553">
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="12" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.00009547">
-        </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000085718">
-        </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.000091878">
-        </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000105736">
-        </testcase>
-        <testcase name="And that the machine has enough milk" classname=";" time="0.000068267">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000082639">
-        </testcase>
-        <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000074426">
-        </testcase>
-        <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000099576">
-        </testcase>
-        <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000079045">
-        </testcase>
-        <testcase name="And I select the drink &quot;coffee with milk&quot;" classname=";" time="0.000118569">
-        </testcase>
-        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000105736">
-        </testcase>
-        <testcase name="Then I will get a 1 cup of coffee" classname=";" time="0.000072373">
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="12" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000092391">
-        </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000085205">
-        </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.000073912">
-        </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000089824">
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000073913">
         </testcase>
         <testcase name="And that the machine has enough milk" classname=";" time="0.000070833">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000089311">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.00006262">
         </testcase>
-        <testcase name="When I insert 0 kr in the machine" classname=";" time="0.000081099">
+        <testcase name="When I insert 10 kr in the machine" classname=";" time="0.000578983">
         </testcase>
-        <testcase name="When I insert 10 kr in the machine" classname=";" time="0.00009239">
+        <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000112922">
+        </testcase>
+        <testcase name="When I insert 0 kr in the machine" classname=";" time="0.000127808">
+        </testcase>
+        <testcase name="And I select the drink &quot;black coffee&quot;" classname=";" time="0.000329014">
+        </testcase>
+        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000671887">
+        </testcase>
+        <testcase name="Then I will get a 1 cup of coffee" classname=";" time="0.00016887">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.00010471">
+        </testcase>
+        <testcase name="And the power light is on" classname=";" time="0.000078533">
+        </testcase>
+        <testcase name="And that the machine has enough water" classname=";" time="0.001341722">
+        </testcase>
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000086232">
+        </testcase>
+        <testcase name="And that the machine has enough milk" classname=";" time="0.000069807">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000057488">
         </testcase>
         <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000083152">
         </testcase>
-        <testcase name="And I select the drink &quot;coppuccino&quot;" classname=";" time="0.000098551">
+        <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000110869">
         </testcase>
-        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000079559">
+        <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000111382">
         </testcase>
-        <testcase name="Then I will get a 1 cup of coffee" classname=";" time="0.000083665">
+        <testcase name="And I select the drink &quot;coffee with milk&quot;" classname=";" time="0.000080585">
+        </testcase>
+        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000075453">
+        </testcase>
+        <testcase name="Then I will get a 1 cup of coffee" classname=";" time="0.000085718">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="12" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000095984">
+        </testcase>
+        <testcase name="And the power light is on" classname=";" time="0.000072887">
+        </testcase>
+        <testcase name="And that the machine has enough water" classname=";" time="0.000073399">
+        </testcase>
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000081612">
+        </testcase>
+        <testcase name="And that the machine has enough milk" classname=";" time="0.001860651">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000092391">
+        </testcase>
+        <testcase name="When I insert 0 kr in the machine" classname=";" time="0.000125754">
+        </testcase>
+        <testcase name="When I insert 10 kr in the machine" classname=";" time="0.000076993">
+        </testcase>
+        <testcase name="When I insert 5 kr in the machine" classname=";" time="0.000079045">
+        </testcase>
+        <testcase name="And I select the drink &quot;coppuccino&quot;" classname=";" time="0.000099063">
+        </testcase>
+        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000077506">
+        </testcase>
+        <testcase name="Then I will get a 1 cup of coffee" classname=";" time="0.000079046">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="8" failures="0" skipped="0">
@@ -203,21 +229,21 @@
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.00010009">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000104709">
         </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000088798">
+        <testcase name="And the power light is on" classname=";" time="0.000076479">
         </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.000079046">
+        <testcase name="And that the machine has enough water" classname=";" time="0.000072886">
         </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000087258">
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000077506">
         </testcase>
-        <testcase name="And that the machine has enough milk" classname=";" time="0.000070833">
+        <testcase name="And that the machine has enough milk" classname=";" time="0.000066214">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000087772">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000141666">
         </testcase>
-        <testcase name="When I insert &quot;byxknapp&quot; in the machine" classname=";" time="0.001477229">
+        <testcase name="When I insert &quot;byxknapp&quot; in the machine" classname=";" time="0.002444253">
         </testcase>
-        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000120621">
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000190941">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="8" failures="0" skipped="0">
@@ -225,105 +251,155 @@
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000092904">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000125241">
         </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000090851">
+        <testcase name="And the power light is on" classname=";" time="0.000093931">
         </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.000140126">
+        <testcase name="And that the machine has enough water" classname=";" time="0.00009701">
         </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000123188">
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000094444">
         </testcase>
-        <testcase name="And that the machine has enough milk" classname=";" time="0.00050353">
+        <testcase name="And that the machine has enough milk" classname=";" time="0.000081098">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000116002">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000066213">
         </testcase>
-        <testcase name="When I insert &quot;false coin&quot; in the machine" classname=";" time="0.000291544">
+        <testcase name="When I insert &quot;false coin&quot; in the machine" classname=";" time="0.000321828">
         </testcase>
-        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000074426">
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000086745">
         </testcase>
     </testsuite>
-    <testsuite name=";" tests="10" failures="0" skipped="1">
+    <testsuite name=";" tests="10" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000105736">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.00010933">
         </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000080585">
+        <testcase name="And the power light is on" classname=";" time="0.000093418">
         </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.000076992">
+        <testcase name="And that the machine has enough water" classname=";" time="0.000092905">
         </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000113435">
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000092904">
         </testcase>
-        <testcase name="And that the machine has enough milk" classname=";" time="0.000106763">
+        <testcase name="And that the machine has enough milk" classname=";" time="0.000108303">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000160657">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000093418">
         </testcase>
-        <testcase name="And I pay 15 kr with credit card" classname=";" time="0.000384962">
+        <testcase name="And I pay 15 kr with credit card" classname=";" time="0.000465548">
         </testcase>
-        <testcase name="And I select the drink &quot;black coffee&quot;" classname=";" time="0.000124728">
+        <testcase name="And I select the drink &quot;black coffee&quot;" classname=";" time="0.000117029">
         </testcase>
-        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000112922">
+        <testcase name="When I presses the &quot;start&quot; button" classname=";" time="0.000124728">
         </testcase>
-        <testcase name="Then I will get a cup of coffee" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I will get a cup of coffee" classname=";" time="0.000285899">
         </testcase>
     </testsuite>
-    <testsuite name=";" tests="10" failures="0" skipped="1">
+    <testsuite name=";" tests="10" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000097524">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000101116">
         </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.00010779">
+        <testcase name="And the power light is on" classname=";" time="0.000074939">
         </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.000119082">
+        <testcase name="And that the machine has enough water" classname=";" time="0.00007032">
         </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000087771">
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000070319">
         </testcase>
-        <testcase name="And that the machine has enough milk" classname=";" time="0.000085718">
+        <testcase name="And that the machine has enough milk" classname=";" time="0.000185808">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000113436">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000066727">
         </testcase>
-        <testcase name="And I pay 15 kr with credit card" classname=";" time="0.000119082">
+        <testcase name="And I pay 15 kr with credit card" classname=";" time="0.000103684">
         </testcase>
-        <testcase name="And I select the drink &quot;coffee with milk&quot;" classname=";" time="0.000111382">
+        <testcase name="And I select the drink &quot;coffee with milk&quot;" classname=";" time="0.000090338">
         </testcase>
-        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000117029">
+        <testcase name="When I presses the &quot;start&quot; button" classname=";" time="0.000116515">
         </testcase>
-        <testcase name="Then I will get a cup of coffee" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I will get a cup of coffee" classname=";" time="0.000072373">
         </testcase>
     </testsuite>
-    <testsuite name=";" tests="10" failures="0" skipped="1">
+    <testsuite name=";" tests="10" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000092391">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000091364">
         </testcase>
-        <testcase name="And the power light is on" classname=";" time="0.000088284">
+        <testcase name="And the power light is on" classname=";" time="0.00007032">
         </testcase>
-        <testcase name="And that the machine has enough water" classname=";" time="0.000073912">
+        <testcase name="And that the machine has enough water" classname=";" time="0.000071346">
         </testcase>
-        <testcase name="And that the machine has enough coffee" classname=";" time="0.000087258">
+        <testcase name="And that the machine has enough coffee" classname=";" time="0.000070833">
         </testcase>
-        <testcase name="And that the machine has enough milk" classname=";" time="0.00010471">
+        <testcase name="And that the machine has enough milk" classname=";" time="0.000083665">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000086231">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000066214">
         </testcase>
-        <testcase name="And I pay 15 kr with credit card" classname=";" time="0.000118055">
+        <testcase name="And I pay 15 kr with credit card" classname=";" time="0.000080585">
         </testcase>
-        <testcase name="And I select the drink &quot;coppuccino&quot;" classname=";" time="0.000077506">
+        <testcase name="And I select the drink &quot;coppuccino&quot;" classname=";" time="0.000073399">
         </testcase>
-        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000094445">
+        <testcase name="When I presses the &quot;start&quot; button" classname=";" time="0.00010471">
         </testcase>
-        <testcase name="Then I will get a cup of coffee" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I will get a cup of coffee" classname=";" time="0.000083665">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
+            </property>
+        </properties>
+        <testcase name="Given I pay 15 kr with credit card" classname=";" time="0.000143719">
+        </testcase>
+        <testcase name="When I press cancel" classname=";" time="0.000452203">
+        </testcase>
+        <testcase name="Then I will get my money back" classname=";" time="0.000227384">
+        </testcase>
+        <testcase name="And the machine will not be alble to serve drinks" classname=";" time="0.000073399">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
+            </property>
+        </properties>
+        <testcase name="Given I do not pay enough 1 kr" classname=";" time="0.0002782">
+        </testcase>
+        <testcase name="Given I do not pay enough 2 kr" classname=";" time="0.000076479">
+        </testcase>
+        <testcase name="Given I do not pay enough 5 kr" classname=";" time="0.000064161">
+        </testcase>
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000112409">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
+            </property>
+        </properties>
+        <testcase name="Given I do not pay enough 10 kr" classname=";" time="0.00006724">
+        </testcase>
+        <testcase name="Given I do not pay enough 1 kr" classname=";" time="0.000053381">
+        </testcase>
+        <testcase name="Given I do not pay enough 2 kr" classname=";" time="0.000053895">
+        </testcase>
+        <testcase name="Then the machine will not be alble to serve drinks" classname=";" time="0.000085718">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature">
+            </property>
+        </properties>
+        <testcase name="Given I pay 15 kr with credit card" classname=";" time="0.000119595">
+        </testcase>
+        <testcase name="When I do not select a drink" classname=";" time="0.000276147">
+        </testcase>
+        <testcase name="And I presses the &quot;start&quot; button" classname=";" time="0.000089824">
+        </testcase>
+        <testcase name="And the machine will not be alble to serve drinks" classname=";" time="0.000092391">
         </testcase>
     </testsuite>
 </testsuites>

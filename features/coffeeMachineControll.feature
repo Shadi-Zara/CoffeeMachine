@@ -35,3 +35,14 @@ Feature:
       | water    |
       | coffee   |
       | milk     |
+
+  Scenario:
+    Given that the machine is plugged in
+    And the machine has no plastic cups
+    When I press the power button
+    Then the machine will not be alble to serve drinks
+
+  Scenario:
+    Given that the machine is plugged in
+    When I forget to press the power button
+    Then the machine will not be alble to serve drinks

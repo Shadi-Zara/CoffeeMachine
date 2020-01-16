@@ -28,7 +28,7 @@ module.exports = function () {
       'Expected the property powerLight to be true after calling the lightPowerLight() method.'
     );
   });
-  
+
   this.Given(/^that the machine has enough water$/, function () {
 
     // check if there is enough water in the water bucket
@@ -57,15 +57,35 @@ module.exports = function () {
   this.Given(/^the machine has plastic cups$/, function () {
     myMachine.fillWithCups();
     // check if there is enough water in the water bucket
-    assert.strictEqual(myMachine.cupsInMachine, true,
-      'Expected the property cupsInDispenser to be true after calling the fillWithCups() method.'
-    );
+    if (this.cupsInMachine >= 1) {
+      assert.strictEqual(myMachine.cupsInMachine, true,
+        'Expected the property cupsInDispenser to be true after calling the fillWithCups() method.'
+
+      );
+    }
+  });
+
+  this.Given(/^the machine has no plastic cups$/, function () {
+    myMachine.checkIfNoCups();
+    // check if there is enough water in the water bucket
+    if (this.cupsInMachine < 1) {
+      assert.strictEqual(myMachine.cupsInMachine, false,
+        'Expected the property cupsInDispenser to be false after calling the checkIfNoCups() method.'
+
+      );
+    }
   });
 
   this.When(/^I press the power button$/, function () {
     myMachine.pressPowerButton();
     assert.strictEqual(myMachine.powerButton, true, "Expected the property power button to be true after calling pressPowerButton()");
   });
+
+  this.When(/^I forget to press the power button$/, function () {
+    myMachine.checkPowerOnButton();
+    assert.strictEqual(myMachine.powerButton, false, "Expected the property power button to be false after calling checkPowerOnButton()");
+  });
+
 
   this.Then(/^the machine will be ready to serve drinks$/, function () {
     myMachine.checkIfMachineReady();
@@ -115,7 +135,7 @@ module.exports = function () {
     )
   });
 
-  
+
   this.When(/^I insert "([^"]*)" in the machine$/, function (nonMoney) {
 
     // Stupid Cucumber/assert library
@@ -163,7 +183,7 @@ module.exports = function () {
   this.When(/^I presses the "([^"]*)" button$/, function (button) {
     if (button === 'start') {
       // we assume just everything is fine
-      startButtonResult = myMachine.start();
+      myMachine.start();
 
       assert(true, "Expected the machine will start coffee making ")
     }
@@ -174,16 +194,54 @@ module.exports = function () {
 
     if (cups === 1) {
       myMachine.serveCoffee();
-      assert(true,"Here's your coffee, Expected to serve coffee" );
+      assert.deepEqual(myMachine.coffeeServed, true, "Here's your coffee, Expected to serve coffee");
     }
     else {
-      assert(
+      assert.notDeepEqual(myMachine.coffeeServed,
         false, "Sorry We didn't insert more cups! Expected to not serve coffee");
     }
   });
 
+  this.Then(/^I will get a cup of coffee$/, function () {
 
+    myMachine.serveCoffee();
+    assert.equal(myMachine.coffeeServed, true, "Here's your coffee, Expected to serve coffee");
+
+  });
+  this.When(/^I press cancel$/, function () {
+    myMachine.cancel();
+    assert.strictEqual(myMachine.cancelButton, true, "Expected property cancelButton to be true when cancel()method is called");
+  });
+
+  /*this.Then(/^I will get my money back$/, function (amount) {
+    amount /= 1;
+    if (this.cardPayedSinceLastCup >= 15) {
+      let moneyAfter = this.totalMoney - amount;
+      myMachine.moneyRefund();
+      assert.deepEqual(myMachine.totalMoney,moneyAfter , "[message]");
+    }
   
+});*/
+  this.Then(/^I will get my money back$/, function () {
+    myMachine.refundMoney();
+
+      assert.deepEqual(myMachine.moneyRefund, true, "Expected the property moneRefund to be true when refundMoney()methodis called");
+    
+  });
+
+  this.When(/^I do not select a drink$/, function () {
+    myMachine.checkIfDrinkSelected();
+    assert.deepEqual(myMachine.selectedDrink, false, "Expected the property selectedDrink to be false when checkIfDrinkSelected() is called");
+  });
+
+  this.Given(/^I do not pay enough (\d+) kr$/, function (amount) {
+    amount /= 1;
+    if (this.coinPayedSinceLastCup === 15) { 
+    myMachine.insertMoney(amount);
+    assert.notDeepEqual(myMachine.coinPayedSinceLastCup, amount, " Expected the property coinInsertedSinceLastCup to not equal amount");
+  }
+  });
+
 
 }
 
