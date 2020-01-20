@@ -4,13 +4,16 @@ Feature:
   I can put 15 kr coins in or pay 10 kr with bank card
   and get a cup of coffee back.
 
-  Scenario Outline:
+  Background: 
     Given that the machine is plugged in
     And the power light is on
     And that the machine has enough water
     And that the machine has enough coffee
     And that the machine has enough milk
     And the machine has plastic cups
+
+  Scenario Outline:
+    
     When I insert <coins 1> kr in the machine
     When I insert <coins 2> kr in the machine
     When I insert <coins 3> kr in the machine

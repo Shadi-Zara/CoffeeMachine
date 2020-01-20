@@ -1,11 +1,11 @@
 [
   {
-    "description": "  As a coffee machine owner\n  I want to be able that\n  I can controll that the machine has enough material\n  to let the users buy coffee.",
+    "description": "  As a coffee buyer\n  I want a coffee machine that\n  I can put 15 kr coins in or pay 10 kr with bank card\n  and get a cup of coffee back.",
     "elements": [
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 17,
+        "line": 26,
         "name": "",
         "steps": [
           {
@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 1109718
+              "duration": 2117292
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 278200
+              "duration": 446043
             },
             "line": 9,
             "match": {
@@ -40,7 +40,7 @@
             "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 244836
+              "duration": 539973
             },
             "line": 10,
             "match": {
@@ -50,188 +50,14 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 194534
-            },
-            "line": 11,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I press the power button",
-            "result": {
-              "status": "passed",
-              "duration": 191455
-            },
-            "line": 12,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will be ready to serve drinks",
-            "result": {
-              "status": "passed",
-              "duration": 165790
-            },
-            "line": 13,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:90"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2331040327
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 225844
-            },
-            "line": 8,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 142180
-            },
-            "line": 9,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 361865
-            },
-            "line": 10,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 134993
+              "duration": 580010
             },
             "line": 11,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I press the power button",
-            "result": {
-              "status": "passed",
-              "duration": 106250
-            },
-            "line": 12,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will be ready to serve drinks",
-            "result": {
-              "status": "passed",
-              "duration": 100603
-            },
-            "line": 13,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:90"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2155541685
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 19,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 121648
-            },
-            "line": 8,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 93418
-            },
-            "line": 9,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
           },
           {
@@ -240,9 +66,9 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 342360
+              "duration": 703198
             },
-            "line": 10,
+            "line": 12,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
@@ -253,9 +79,9 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 76479
+              "duration": 464007
             },
-            "line": 11,
+            "line": 13,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
@@ -263,88 +89,257 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I press the power button",
+            "name": "I insert 10 kr in the machine",
             "result": {
               "status": "passed",
-              "duration": 98551
+              "duration": 1070709
+            },
+            "line": 17,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 5 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 350059
+            },
+            "line": 18,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 0 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 215066
+            },
+            "line": 19,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select the drink \"black coffee\"",
+            "result": {
+              "status": "passed",
+              "duration": 410627
+            },
+            "line": 20,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1306305
+            },
+            "line": 21,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I will get a 1 cup of coffee",
+            "result": {
+              "status": "passed",
+              "duration": 357758
+            },
+            "line": 22,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:192"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 3108745675
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 209419
+            },
+            "line": 8,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 177596
+            },
+            "line": 9,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 174003
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 226358
+            },
+            "line": 11,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 145259
             },
             "line": 12,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will be ready to serve drinks",
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 82638
+              "duration": 213012
             },
             "line": 13,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:90"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2153443385
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 22,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is not plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 310536
-            },
-            "line": 23,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:95"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I press the power button",
+            "name": "I insert 5 kr in the machine",
             "result": {
               "status": "passed",
-              "duration": 93931
+              "duration": 166304
             },
-            "line": 24,
+            "line": 17,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 5 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 206340
+            },
+            "line": 18,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 5 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 180162
+            },
+            "line": 19,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select the drink \"coffee with milk\"",
+            "result": {
+              "status": "passed",
+              "duration": 164250
+            },
+            "line": 20,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 167331
+            },
+            "line": 21,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the machine will not be alble to serve drinks",
+            "name": "I will get a 1 cup of coffee",
             "result": {
               "status": "passed",
-              "duration": 361865
+              "duration": 176056
             },
-            "line": 25,
+            "line": 22,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:192"
             }
           },
           {
@@ -352,7 +347,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2154255398
+              "duration": 2296817183
             },
             "hidden": true,
             "match": {
@@ -366,7 +361,7 @@
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 35,
+        "line": 28,
         "name": "",
         "steps": [
           {
@@ -375,9 +370,9 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 134480
+              "duration": 166817
             },
-            "line": 28,
+            "line": 8,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
             }
@@ -385,40 +380,144 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there are not enough water",
+            "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 270500
+              "duration": 179649
             },
-            "line": 29,
+            "line": 9,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:106"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 161685
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 189915
+            },
+            "line": 11,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 181703
+            },
+            "line": 12,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 160657
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I press the power button",
+            "name": "I insert 0 kr in the machine",
             "result": {
               "status": "passed",
-              "duration": 81612
+              "duration": 172463
             },
-            "line": 30,
+            "line": 17,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 10 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 185295
+            },
+            "line": 18,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert 5 kr in the machine",
+            "result": {
+              "status": "passed",
+              "duration": 206339
+            },
+            "line": 19,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select the drink \"coppuccino\"",
+            "result": {
+              "status": "passed",
+              "duration": 181189
+            },
+            "line": 20,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 189915
+            },
+            "line": 21,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the machine will not be alble to serve drinks",
+            "name": "I will get a 1 cup of coffee",
             "result": {
               "status": "passed",
-              "duration": 74426
+              "duration": 211986
             },
-            "line": 31,
+            "line": 22,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:192"
             }
           },
           {
@@ -426,7 +525,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2166985843
+              "duration": 2365630981
             },
             "hidden": true,
             "match": {
@@ -440,7 +539,7 @@
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 36,
+        "line": 44,
         "name": "",
         "steps": [
           {
@@ -449,9 +548,9 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 110869
+              "duration": 209933
             },
-            "line": 28,
+            "line": 8,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
             }
@@ -459,73 +558,77 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there are not enough coffee",
+            "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 263828
+              "duration": 235084
             },
-            "line": 29,
+            "line": 9,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:111"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "I press the power button",
+            "keyword": "And ",
+            "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 90338
+              "duration": 221739
             },
-            "line": 30,
+            "line": 10,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will not be alble to serve drinks",
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 89312
+              "duration": 206339
             },
-            "line": 31,
+            "line": 11,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
           },
           {
             "arguments": [],
-            "keyword": "After ",
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 2150929838
+              "duration": 163224
             },
-            "hidden": true,
+            "line": 12,
             "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 37,
-        "name": "",
-        "steps": [
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 158091
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 106249
+              "duration": 179649
             },
-            "line": 28,
+            "line": 33,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
             }
@@ -533,27 +636,79 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there are not enough milk",
+            "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 235083
+              "duration": 234571
             },
-            "line": 29,
+            "line": 34,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:116"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 196074
+            },
+            "line": 35,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 184268
+            },
+            "line": 36,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 196588
+            },
+            "line": 37,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 222765
+            },
+            "line": 38,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I press the power button",
+            "name": "I insert \"byxknapp\" in the machine",
             "result": {
               "status": "passed",
-              "duration": 72373
+              "duration": 2538698
             },
-            "line": 30,
+            "line": 39,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:139"
             }
           },
           {
@@ -562,84 +717,10 @@
             "name": "the machine will not be alble to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 85205
-            },
-            "line": 31,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2149971539
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 39,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 102657
+              "duration": 485566
             },
             "line": 40,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has no plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 262801
-            },
-            "line": 41,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:68"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I press the power button",
-            "result": {
-              "status": "passed",
-              "duration": 76993
-            },
-            "line": 42,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:79"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will not be alble to serve drinks",
-            "result": {
-              "status": "passed",
-              "duration": 76479
-            },
-            "line": 43,
-            "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
             }
           },
@@ -648,7 +729,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2149302731
+              "duration": 2241140864
             },
             "hidden": true,
             "match": {
@@ -671,79 +752,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 141666
-            },
-            "line": 46,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I forget to press the power button",
-            "result": {
-              "status": "passed",
-              "duration": 234571
-            },
-            "line": 47,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:84"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will not be alble to serve drinks",
-            "result": {
-              "status": "passed",
-              "duration": 111382
-            },
-            "line": 48,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2143348648
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "",
-    "keyword": "Feature",
-    "line": 1,
-    "name": "",
-    "tags": [],
-    "uri": "C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineControll.feature"
-  },
-  {
-    "description": "  As a coffee buyer\n  I want a coffee machine that\n  I can put 15 kr coins in or pay 10 kr with bank card\n  and get a cup of coffee back.",
-    "elements": [
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 97011
+              "duration": 173490
             },
             "line": 8,
             "match": {
@@ -756,7 +765,7 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 72886
+              "duration": 128834
             },
             "line": 9,
             "match": {
@@ -769,7 +778,7 @@
             "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 87258
+              "duration": 141153
             },
             "line": 10,
             "match": {
@@ -782,7 +791,7 @@
             "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 73913
+              "duration": 130374
             },
             "line": 11,
             "match": {
@@ -795,7 +804,7 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 70833
+              "duration": 131914
             },
             "line": 12,
             "match": {
@@ -808,7 +817,7 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 62620
+              "duration": 116515
             },
             "line": 13,
             "match": {
@@ -817,635 +826,53 @@
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 10 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 578983
-            },
-            "line": 14,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 5 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 112922
-            },
-            "line": 15,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 0 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 127808
-            },
-            "line": 16,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select the drink \"black coffee\"",
-            "result": {
-              "status": "passed",
-              "duration": 329014
-            },
-            "line": 17,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 671887
-            },
-            "line": 18,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I will get a 1 cup of coffee",
-            "result": {
-              "status": "passed",
-              "duration": 168870
-            },
-            "line": 19,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:192"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2151262958
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 24,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
             "keyword": "Given ",
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 104710
-            },
-            "line": 8,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 78533
-            },
-            "line": 9,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 1341722
-            },
-            "line": 10,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 86232
-            },
-            "line": 11,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough milk",
-            "result": {
-              "status": "passed",
-              "duration": 69807
-            },
-            "line": 12,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 57488
-            },
-            "line": 13,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 5 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 83152
-            },
-            "line": 14,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 5 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 110869
-            },
-            "line": 15,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 5 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 111382
-            },
-            "line": 16,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select the drink \"coffee with milk\"",
-            "result": {
-              "status": "passed",
-              "duration": 80585
-            },
-            "line": 17,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 75453
-            },
-            "line": 18,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I will get a 1 cup of coffee",
-            "result": {
-              "status": "passed",
-              "duration": 85718
-            },
-            "line": 19,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:192"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2141262152
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 25,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 95984
-            },
-            "line": 8,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 72887
-            },
-            "line": 9,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 73399
-            },
-            "line": 10,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 81612
-            },
-            "line": 11,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough milk",
-            "result": {
-              "status": "passed",
-              "duration": 1860651
-            },
-            "line": 12,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 92391
-            },
-            "line": 13,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 0 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 125754
-            },
-            "line": 14,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 10 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 76993
-            },
-            "line": 15,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I insert 5 kr in the machine",
-            "result": {
-              "status": "passed",
-              "duration": 79045
-            },
-            "line": 16,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:124"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select the drink \"coppuccino\"",
-            "result": {
-              "status": "passed",
-              "duration": 99063
-            },
-            "line": 17,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 77506
-            },
-            "line": 18,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I will get a 1 cup of coffee",
-            "result": {
-              "status": "passed",
-              "duration": 79046
-            },
-            "line": 19,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:192"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2158809245
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 41,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 104709
-            },
-            "line": 30,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 76479
-            },
-            "line": 31,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 72886
-            },
-            "line": 32,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 77506
+              "duration": 184269
             },
             "line": 33,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough milk",
+            "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 66214
+              "duration": 148852
             },
             "line": 34,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the machine has plastic cups",
+            "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 141666
+              "duration": 129347
             },
             "line": 35,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "I insert \"byxknapp\" in the machine",
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 2444253
+              "duration": 122162
             },
             "line": 36,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:139"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will not be alble to serve drinks",
-            "result": {
-              "status": "passed",
-              "duration": 190941
-            },
-            "line": 37,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2162042928
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 42,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 125241
-            },
-            "line": 30,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 93931
-            },
-            "line": 31,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 97010
-            },
-            "line": 32,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 94444
-            },
-            "line": 33,
-            "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
           },
@@ -1455,9 +882,9 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 81098
+              "duration": 227897
             },
-            "line": 34,
+            "line": 37,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
@@ -1468,9 +895,9 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 66213
+              "duration": 173490
             },
-            "line": 35,
+            "line": 38,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
@@ -1481,9 +908,9 @@
             "name": "I insert \"false coin\" in the machine",
             "result": {
               "status": "passed",
-              "duration": 321828
+              "duration": 524061
             },
-            "line": 36,
+            "line": 39,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:139"
             }
@@ -1494,9 +921,9 @@
             "name": "the machine will not be alble to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 86745
+              "duration": 164251
             },
-            "line": 37,
+            "line": 40,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
             }
@@ -1506,7 +933,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2183919049
+              "duration": 2263216139
             },
             "hidden": true,
             "match": {
@@ -1520,7 +947,7 @@
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 59,
+        "line": 62,
         "name": "",
         "steps": [
           {
@@ -1529,9 +956,9 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 109330
+              "duration": 162197
             },
-            "line": 46,
+            "line": 8,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
             }
@@ -1542,9 +969,9 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 93418
+              "duration": 151931
             },
-            "line": 47,
+            "line": 9,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
             }
@@ -1555,9 +982,9 @@
             "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 92905
+              "duration": 253048
             },
-            "line": 48,
+            "line": 10,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
             }
@@ -1568,9 +995,9 @@
             "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 92904
+              "duration": 161170
             },
-            "line": 49,
+            "line": 11,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
@@ -1581,9 +1008,9 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 108303
+              "duration": 194534
             },
-            "line": 50,
+            "line": 12,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
@@ -1594,9 +1021,87 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 93418
+              "duration": 155011
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 707304
+            },
+            "line": 49,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 189401
+            },
+            "line": 50,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 233544
             },
             "line": 51,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 169383
+            },
+            "line": 52,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 1404342
+            },
+            "line": 53,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 191968
+            },
+            "line": 54,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
@@ -1607,9 +1112,9 @@
             "name": "I pay 15 kr with credit card",
             "result": {
               "status": "passed",
-              "duration": 465548
+              "duration": 590276
             },
-            "line": 52,
+            "line": 55,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:164"
             }
@@ -1620,9 +1125,9 @@
             "name": "I select the drink \"black coffee\"",
             "result": {
               "status": "passed",
-              "duration": 117029
+              "duration": 167843
             },
-            "line": 53,
+            "line": 56,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
             }
@@ -1633,9 +1138,9 @@
             "name": "I presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 124728
+              "duration": 415246
             },
-            "line": 54,
+            "line": 57,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
             }
@@ -1646,9 +1151,9 @@
             "name": "I will get a cup of coffee",
             "result": {
               "status": "passed",
-              "duration": 285899
+              "duration": 319776
             },
-            "line": 55,
+            "line": 58,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:205"
             }
@@ -1658,7 +1163,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2156607261
+              "duration": 2294089598
             },
             "hidden": true,
             "match": {
@@ -1672,7 +1177,7 @@
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 60,
+        "line": 63,
         "name": "",
         "steps": [
           {
@@ -1681,9 +1186,9 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 101116
+              "duration": 185295
             },
-            "line": 46,
+            "line": 8,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
             }
@@ -1694,9 +1199,9 @@
             "name": "the power light is on",
             "result": {
               "status": "passed",
-              "duration": 74939
+              "duration": 182729
             },
-            "line": 47,
+            "line": 9,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
             }
@@ -1707,9 +1212,9 @@
             "name": "that the machine has enough water",
             "result": {
               "status": "passed",
-              "duration": 70320
+              "duration": 185295
             },
-            "line": 48,
+            "line": 10,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
             }
@@ -1720,9 +1225,9 @@
             "name": "that the machine has enough coffee",
             "result": {
               "status": "passed",
-              "duration": 70319
+              "duration": 147826
             },
-            "line": 49,
+            "line": 11,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
             }
@@ -1733,9 +1238,9 @@
             "name": "that the machine has enough milk",
             "result": {
               "status": "passed",
-              "duration": 185808
+              "duration": 158605
             },
-            "line": 50,
+            "line": 12,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
             }
@@ -1746,9 +1251,87 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 66727
+              "duration": 123188
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 5373559
+            },
+            "line": 49,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 174002
+            },
+            "line": 50,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 150392
             },
             "line": 51,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 151418
+            },
+            "line": 52,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 129860
+            },
+            "line": 53,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 130374
+            },
+            "line": 54,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
             }
@@ -1759,9 +1342,9 @@
             "name": "I pay 15 kr with credit card",
             "result": {
               "status": "passed",
-              "duration": 103684
+              "duration": 222252
             },
-            "line": 52,
+            "line": 55,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:164"
             }
@@ -1772,9 +1355,9 @@
             "name": "I select the drink \"coffee with milk\"",
             "result": {
               "status": "passed",
-              "duration": 90338
+              "duration": 235597
             },
-            "line": 53,
+            "line": 56,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
             }
@@ -1785,9 +1368,9 @@
             "name": "I presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 116515
+              "duration": 156552
             },
-            "line": 54,
+            "line": 57,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
             }
@@ -1798,9 +1381,9 @@
             "name": "I will get a cup of coffee",
             "result": {
               "status": "passed",
-              "duration": 72373
+              "duration": 156038
             },
-            "line": 55,
+            "line": 58,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:205"
             }
@@ -1810,159 +1393,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2144728866
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 61,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 91364
-            },
-            "line": 46,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the power light is on",
-            "result": {
-              "status": "passed",
-              "duration": 70320
-            },
-            "line": 47,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough water",
-            "result": {
-              "status": "passed",
-              "duration": 71346
-            },
-            "line": 48,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough coffee",
-            "result": {
-              "status": "passed",
-              "duration": 70833
-            },
-            "line": 49,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough milk",
-            "result": {
-              "status": "passed",
-              "duration": 83665
-            },
-            "line": 50,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 66214
-            },
-            "line": 51,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I pay 15 kr with credit card",
-            "result": {
-              "status": "passed",
-              "duration": 80585
-            },
-            "line": 52,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:164"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select the drink \"coppuccino\"",
-            "result": {
-              "status": "passed",
-              "duration": 73399
-            },
-            "line": 53,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 104710
-            },
-            "line": 54,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I will get a cup of coffee",
-            "result": {
-              "status": "passed",
-              "duration": 83665
-            },
-            "line": 55,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:205"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2147492895
+              "duration": 2751923143
             },
             "hidden": true,
             "match": {
@@ -1982,12 +1413,320 @@
           {
             "arguments": [],
             "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 176569
+            },
+            "line": 8,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 130374
+            },
+            "line": 9,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 127808
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 113435
+            },
+            "line": 11,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 160144
+            },
+            "line": 12,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 109843
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 136020
+            },
+            "line": 49,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 122675
+            },
+            "line": 50,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 225331
+            },
+            "line": 51,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 211986
+            },
+            "line": 52,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 147312
+            },
+            "line": 53,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 99577
+            },
+            "line": 54,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "name": "I pay 15 kr with credit card",
             "result": {
               "status": "passed",
-              "duration": 143719
+              "duration": 195560
             },
-            "line": 65,
+            "line": 55,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:164"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select the drink \"coppuccino\"",
+            "result": {
+              "status": "passed",
+              "duration": 146798
+            },
+            "line": 56,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:178"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 182728
+            },
+            "line": 57,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I will get a cup of coffee",
+            "result": {
+              "status": "passed",
+              "duration": 254075
+            },
+            "line": 58,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:205"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2279631443
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 156038
+            },
+            "line": 8,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 147825
+            },
+            "line": 9,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 163738
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 195561
+            },
+            "line": 11,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 161684
+            },
+            "line": 12,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 149878
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I pay 15 kr with credit card",
+            "result": {
+              "status": "passed",
+              "duration": 1574752
+            },
+            "line": 68,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:164"
             }
@@ -1998,9 +1737,9 @@
             "name": "I press cancel",
             "result": {
               "status": "passed",
-              "duration": 452203
+              "duration": 994743
             },
-            "line": 66,
+            "line": 69,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:211"
             }
@@ -2011,9 +1750,9 @@
             "name": "I will get my money back",
             "result": {
               "status": "passed",
-              "duration": 227384
+              "duration": 571284
             },
-            "line": 67,
+            "line": 70,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:225"
             }
@@ -2024,84 +1763,10 @@
             "name": "the machine will not be alble to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 73399
-            },
-            "line": 68,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2131932207
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 78,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I do not pay enough 1 kr",
-            "result": {
-              "status": "passed",
-              "duration": 278200
+              "duration": 188374
             },
             "line": 71,
             "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I do not pay enough 2 kr",
-            "result": {
-              "status": "passed",
-              "duration": 76479
-            },
-            "line": 72,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I do not pay enough 5 kr",
-            "result": {
-              "status": "passed",
-              "duration": 64161
-            },
-            "line": 73,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will not be alble to serve drinks",
-            "result": {
-              "status": "passed",
-              "duration": 112409
-            },
-            "line": 74,
-            "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
             }
           },
@@ -2110,81 +1775,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2151054052
-            },
-            "hidden": true,
-            "match": {
-              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 79,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I do not pay enough 10 kr",
-            "result": {
-              "status": "passed",
-              "duration": 67240
-            },
-            "line": 71,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I do not pay enough 1 kr",
-            "result": {
-              "status": "passed",
-              "duration": 53381
-            },
-            "line": 72,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "I do not pay enough 2 kr",
-            "result": {
-              "status": "passed",
-              "duration": 53895
-            },
-            "line": 73,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the machine will not be alble to serve drinks",
-            "result": {
-              "status": "passed",
-              "duration": 85718
-            },
-            "line": 74,
-            "match": {
-              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 2148925468
+              "duration": 2710477081
             },
             "hidden": true,
             "match": {
@@ -2204,12 +1795,394 @@
           {
             "arguments": [],
             "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 163224
+            },
+            "line": 8,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 141153
+            },
+            "line": 9,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 153471
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 154499
+            },
+            "line": 11,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 145772
+            },
+            "line": 12,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 102143
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I do not pay enough 1 kr",
+            "result": {
+              "status": "passed",
+              "duration": 288465
+            },
+            "line": 74,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I do not pay enough 2 kr",
+            "result": {
+              "status": "passed",
+              "duration": 197614
+            },
+            "line": 75,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I do not pay enough 5 kr",
+            "result": {
+              "status": "passed",
+              "duration": 168357
+            },
+            "line": 76,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine will not be alble to serve drinks",
+            "result": {
+              "status": "passed",
+              "duration": 142180
+            },
+            "line": 77,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2273449462
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 141666
+            },
+            "line": 8,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 157065
+            },
+            "line": 9,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 136020
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 129860
+            },
+            "line": 11,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 126268
+            },
+            "line": 12,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 111382
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I do not pay enough 10 kr",
+            "result": {
+              "status": "passed",
+              "duration": 106249
+            },
+            "line": 74,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I do not pay enough 1 kr",
+            "result": {
+              "status": "passed",
+              "duration": 1823694
+            },
+            "line": 75,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I do not pay enough 2 kr",
+            "result": {
+              "status": "passed",
+              "duration": 172976
+            },
+            "line": 76,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:237"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine will not be alble to serve drinks",
+            "result": {
+              "status": "passed",
+              "duration": 210960
+            },
+            "line": 77,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2322132814
+            },
+            "hidden": true,
+            "match": {
+              "location": "projects\\coffee.machine.project\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 123188
+            },
+            "line": 8,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the power light is on",
+            "result": {
+              "status": "passed",
+              "duration": 123188
+            },
+            "line": 9,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough water",
+            "result": {
+              "status": "passed",
+              "duration": 99577
+            },
+            "line": 10,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffee",
+            "result": {
+              "status": "passed",
+              "duration": 167330
+            },
+            "line": 11,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough milk",
+            "result": {
+              "status": "passed",
+              "duration": 126267
+            },
+            "line": 12,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 120108
+            },
+            "line": 13,
+            "match": {
+              "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
             "name": "I pay 15 kr with credit card",
             "result": {
               "status": "passed",
-              "duration": 119595
+              "duration": 178110
             },
-            "line": 82,
+            "line": 85,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:164"
             }
@@ -2220,9 +2193,9 @@
             "name": "I do not select a drink",
             "result": {
               "status": "passed",
-              "duration": 276147
+              "duration": 458362
             },
-            "line": 83,
+            "line": 86,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:232"
             }
@@ -2233,9 +2206,9 @@
             "name": "I presses the \"start\" button",
             "result": {
               "status": "passed",
-              "duration": 89824
+              "duration": 131914
             },
-            "line": 84,
+            "line": 87,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:183"
             }
@@ -2246,9 +2219,9 @@
             "name": "the machine will not be alble to serve drinks",
             "result": {
               "status": "passed",
-              "duration": 92391
+              "duration": 143720
             },
-            "line": 85,
+            "line": 88,
             "match": {
               "location": "projects\\coffee.machine.project\\step-definitions\\coffeeMachineSteps.js:99"
             }
@@ -2258,7 +2231,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2147500594
+              "duration": 2361061222
             },
             "hidden": true,
             "match": {
@@ -2275,6 +2248,6 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/Users/Data/Desktop/JavaScripts projects/coffee.machine.project/features/coffeeMachineUser.feature"
+    "uri": "C:\\Users\\Data\\Desktop\\JavaScripts projects\\coffee.machine.project\\features\\coffeeMachineUser.feature"
   }
 ]
